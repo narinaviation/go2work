@@ -6,7 +6,7 @@ import Trains from './Trains';
 function Main(props) {
   if (props.train != null && props.train != undefined) {
     return (
-      <div className='App-main'>
+      <div className='App-src'>
         <h3>Next train to go {props.destination.toUpperCase()}</h3>
         <h2>{props.train.number} ({props.train.type})</h2>
         <h3>Departs by</h3>
